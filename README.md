@@ -41,7 +41,7 @@ Código HTML
 
 ## Propiedades
 | Nombre  | Tipo  | Descripción |
-| :------------ |:---------------|
+| ------------ | --------------- | --------------- |
 | text     |  Input  | Texto para copiar. |
 | styles      |  Input  |  Estilos de CSS |
 | cssClass |  Input  |  Clase de CSS (declarada en style.css o style.scss) |
