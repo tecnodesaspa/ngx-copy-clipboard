@@ -1,0 +1,24 @@
+.copy{
+    background-color: #DFE4EA;
+    color: #57606F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .7rem 1.5rem;
+    border-radius: 4px;
+}
+
+.btn-copy {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: #CED6E0;
+    cursor: pointer;
+}
+
+.btn-copy:active {
+   opacity: .5; 
+}
