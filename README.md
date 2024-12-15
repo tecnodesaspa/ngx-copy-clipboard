@@ -46,3 +46,11 @@ Código HTML
 | styles      |  Input  |  Estilos de CSS |
 | cssClass |  Input  |  Clase de CSS (declarada en style.css o style.scss) |
 | copyText |  Output  |  Función que se ejecuta cuando copia en portapapeles |
+
+
+## Version
+| Angular  | NgxCopyClipboard  |
+| ------------ | --------------- |
+| 16.x.x |  1  |
+| 17.x.x |  2  |
+| 18.x.x |  3  |
