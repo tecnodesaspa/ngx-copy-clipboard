@@ -51,6 +51,12 @@ Código HTML
 ## Version
 | Angular  | NgxCopyClipboard  |
 | ------------ | --------------- |
+<<<<<<< HEAD
 | 16.x.x |  1  |
 | 17.x.x |  2  |
 | 18.x.x |  3  |
+=======
+| 16.x.x |  16  |
+| 17.x.x |  17  |
+| 18.x.x |  18  |
+>>>>>>> release-v16.0.0
