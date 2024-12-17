@@ -1,24 +1,56 @@
 # NgxCopyClipboard
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
 
-## Code scaffolding
+Angular NgxCopyClipboard es un proyecto en el que podrás copiar de forma simple un texto al portapapeles en tus proyectos
 
-Run `ng generate component component-name --project ngx-copy-clipboard` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngx-copy-clipboard`.
-> Note: Don't forget to add `--project ngx-copy-clipboard` or else it will be added to the default project in your `angular.json` file. 
 
-## Build
+## Instalación
 
-Run `ng build ngx-copy-clipboard` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
+npm i ngx-copy-clipboard
+```
 
-## Publishing
 
-After building your library with `ng build ngx-copy-clipboard`, go to the dist folder `cd dist/ngx-copy-clipboard` and run `npm publish`.
+## Uso
 
-## Running unit tests
+```
+import { NgxCopyClipboardModule } from 'ngx-copy-clipboard'
 
-Run `ng test ngx-copy-clipboard` to execute the unit tests via [Karma](https://karma-runner.github.io).
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    NgxCopyClipboardModule,
+    BrowserModule,
+    AppRoutingModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
 
-## Further help
+## Component ngx-copy-clipboard
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Código HTML
+```
+<ngx-copy-clipboard text="npm i ngx-copy-clipboard"></ngx-copy-clipboard>
+```
+
+
+## Propiedades
+| Nombre  | Tipo  | Descripción |
+| ------------ | --------------- | --------------- |
+| text     |  Input  | Texto para copiar. |
+| styles      |  Input  |  Estilos de CSS |
+| cssClass |  Input  |  Clase de CSS (declarada en style.css o style.scss) |
+| copyText |  Output  |  Función que se ejecuta cuando copia en portapapeles |
+
+
+## Version
+| Angular  | NgxCopyClipboard  |
+| ------------ | --------------- |
+| 16.x.x |  16  |
+| 17.x.x |  17  |
+| 18.x.x |  18  |
